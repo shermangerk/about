@@ -1,0 +1,203 @@
+* sticky navbar */
+/* ============================================= */
+/* Style the navbar */
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+/* Page content */
+*{
+  box-sizing: border-box;
+}
+body, html{
+  font-family: 'Raleway', sans-serif;
+  height: 100%;
+  margin: 0;
+}
+
+h1,p,h2,h3 {
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+h3 {
+  font-weight: bold;
+  display: inline;
+  font-family: 'Roboto Condensed', sans-serif;
+  margin: 0rem 4rem;
+}
+
+
+
+/*CSS TEXT CONTAINERS */
+
+.container1{
+  text-align: center;
+  margin:auto;
+}
+
+
+/* Quote #1 for about me */
+
+/*Main Header Text Font*/
+.title{
+  font-family: 'Nothing You Could Do', cursive;
+  font-size: 3rem;
+}
+
+.lead{
+  font-size: 2rem;
+  font-family: 'Share Tech Mono', monospace;
+}
+
+.introduction
+{
+     display: inline-block;
+     padding: 50px;
+     background-color: #ffffff ;
+     width: 70%;
+     margin: auto;
+     height: auto;
+}
+
+.bg2
+{
+     padding: 30px;
+     text-align: center;
+}
+
+.introduction h2{
+  line-height: 1.6;
+}
+
+.caption{
+  font-family: 'Assistant', sans-serif;
+}
+/* profile pic image */
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+#profile{
+  float: left;
+  padding:3rem;
+}
+
+.bg1,.bg2 {
+  opacity: 0.9;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  /* Full height */
+  margin-bottom:0px;
+  height:100%;
+  width:100%;
+}
+
+.bg1{
+    background-image: url(../img/Me.jpg);
+}
+
+.bg2{
+    background-image: url(../img/mountain.jpg);
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+
+nav ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+nav li{
+  display: inline-block;
+  margin: 1rem;
+}
+
+nav a{
+  font-size: 1.5rem;
+  color:#000000;
+  text-decoration: none;
+}
+
+nav a:hover{
+  color:#9e9e9e;
+}
+
+@media screen and (max-width: 900px) {
+
+/* nav li{
+  display: inline-flex;
+} */
+
+}
+
+@media screen and (max-width: 768px){
+  .bordered{
+    font-size:3rem;
+    font-weight: bold;
+  }
+  .bg1{
+    background-image: url(../img/Me1.jpg);
+    height: 100%;
+  }
+  .lead{
+    font-size: 1.5rem;
+  }
+
+  .title{
+    font-size: 3rem;
+  }
+
+  .introduction{
+    font-size: 50%;
+  }
+}
+
+@media screen and (max-width: 400px){
+  .bordered{
+    font-size: 2rem;
+  }
+  nav a{
+    margin: auto;
+    font-size: 1rem;
+  }
+
+  nav a:hover{
+    color:#9e9e9e;
+  }
+
+  .lead{
+    font-size: 1rem;
+  }
+
+  .title{
+    font-size: 2rem;
+  }
+  .introduction{
+    width: 100%
+  }
+  
+
+}
+
+
+/* Progress Bar */
