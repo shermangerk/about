@@ -168,13 +168,11 @@ nav a:hover{
     font-size: 60%;
   }
   
-  .bg2
-  {
+  .bg2{
        padding:0;
-       text-align: center;
   }
   
-  nav {
+  nav{
     background-image: url(../img/mountain.jpg);
     background-repeat:no-repeat;
     background-attachment:fixed;
