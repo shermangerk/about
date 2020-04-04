@@ -1,9 +1,6 @@
 function calcVH() {
-    $('.bg1').innerHeight( $(this).innerHeight() );
+  var vH = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
+  document.getElementById("bg1").setAttribute("style", "height:" + vH + "px;");
 }
-(function($) {
-  calcVH();
-  $(window).on('resize orientationchange', function() {
-    calcVH();
-  });
-})(jQuery);
+calcVH();
+window.addEventListener('onorientationchange', calcVH, true);
