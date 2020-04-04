@@ -91,10 +91,6 @@ nav a:hover{
     font-size:3rem;
     font-weight: bold;
   }
-  .bg1{
-    background-image: url(../img/Me1.jpg);
-    height: 100%;
-  }
   .lead{
     font-size: 1.5rem;
   }
@@ -106,17 +102,11 @@ nav a:hover{
   .introduction{
     font-size: 60%;
   }
-  .bg2
+  .bg1
   {
        padding:0;
        text-align: center;
   }
-  nav{
-    background-image: url(../img/mountain.jpg);
-    background-repeat:no-repeat;
-    background-attachment:fixed;
-  }
-
 }
 
 @media screen and (max-width: 400px){
