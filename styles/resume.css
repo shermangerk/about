@@ -49,6 +49,10 @@ h3 {
     background-image: url(../img/sea.jpg);
 }
 
+.lead{
+  font-size: 2rem;
+  font-family: 'Share Tech Mono', monospace;
+}
 
 
 a{
