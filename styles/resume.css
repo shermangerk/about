@@ -1,24 +1,16 @@
-
-/* ============================================= */
-/* Style the navbar */
-.lead{
-  font-size: 2rem;
-  font-family: 'Share Tech Mono', monospace;
-}
-
 /* Page content */
 *{
   box-sizing: border-box;
 }
 body, html{
-  font-family: 'Amiri', serif;
+  font-family: 'Raleway', sans-serif;
   height: 100%;
   margin: 0;
 }
 
-h1,p,h2,h3 {
+h1 {
   text-align: center;
-  font-family: 'Amiri', serif;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 h3 {
@@ -31,88 +23,17 @@ h3 {
 
 
 /*CSS TEXT CONTAINERS */
-
-.container1{
-  text-align: center;
-  margin:auto;
-}
-
-
-/* Quote #1 for about me */
-
 /*Main Header Text Font*/
 .title{
   font-family: 'Nothing You Could Do', cursive;
   font-size: 3rem;
 }
 
-.lead{
-  font-size: 2rem;
-  font-family: 'Share Tech Mono', monospace;
-}
-
-.centered {
-  position: relative;
-  text-align: center;
-  vertical-align: middle;
-  top: 50%;
-  transform: translateY(-50%);
-  color:#ffffff;
-  max-width: 100%;
-  margin-right:-.3em;
-
-}
-
-.centered p{
-  font-family: 'Monda', sans-serif;
-  letter-spacing: 0.3em;
-}
-
-.bordered{
-    display: inline;
-    border-color:#ffffff;
-    border-style: solid;
-    border-width: 3px;
-    font-size: 3rem;
-    max-width: 100%;
-    padding: 0px;
-}
-
-.introduction
-{
-     display: inline-block;
-     padding: 50px;
-     background-color: #ffffff ;
-     width: 100%;
-     margin: auto;
-     height: auto;
-     vertical-align: middle;
-     line-height: 1.6;
-}
 
 
-
-.introduction h2{
-  line-height: 1.6;
-  font-size: 1rem;
-}
-
-.caption{
-  font-family: 'Assistant', sans-serif;
-}
 /* profile pic image */
 
-img{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 250px;
-  align: middle;
-}
-
-
-.bg1{
-  background-image: url(../img/mountain.jpg);
+.bg1 {
   opacity: 0.9;
   background-position:center;
   background-size:cover;
@@ -123,6 +44,11 @@ img{
   height:100%;
   width:100%;
 }
+
+.bg1 {
+    background-image: url(../img/sea.jpg);
+}
+
 
 
 a{
@@ -154,13 +80,20 @@ nav a:hover{
 
 @media screen and (max-width: 900px) {
 
+/* nav li{
+  display: inline-flex;
+} */
 
 }
 
 @media screen and (max-width: 768px){
   .bordered{
     font-size:3rem;
-    border-width: 0px;
+    font-weight: bold;
+  }
+  .bg1{
+    background-image: url(../img/Me1.jpg);
+    height: 100%;
   }
   .lead{
     font-size: 1.5rem;
@@ -173,10 +106,15 @@ nav a:hover{
   .introduction{
     font-size: 60%;
   }
-  .bg1
+  .bg2
   {
        padding:0;
        text-align: center;
+  }
+  nav{
+    background-image: url(../img/mountain.jpg);
+    background-repeat:no-repeat;
+    background-attachment:fixed;
   }
 
 }
@@ -210,3 +148,4 @@ nav a:hover{
 
 
 /* Progress Bar */
+}
