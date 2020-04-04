@@ -78,16 +78,14 @@ h3 {
     padding: 0px;
 }
 
-.introduction
-{
-     
-     padding: 50px;
-     background-color: #ffffff ;
-     width: 60%;
-     margin: auto;
-     height: auto;
-     vertical-align: middle;
-     line-height: 1.6;
+.introduction{
+    padding: 50px;
+    background-color: #ffffff ;
+    width: 60%;
+    margin: auto;
+    height: auto;
+    vertical-align: middle;
+    line-height: 1.6;
 }
 
 
@@ -97,9 +95,6 @@ h3 {
   font-size: 1rem;
 }
 
-.caption{
-  font-family: 'Assistant', sans-serif;
-}
 /* profile pic image */
 
 img{

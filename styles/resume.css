@@ -3,7 +3,7 @@
   box-sizing: border-box;
 }
 body, html{
-  
+
   font-family: 'Amiri', serif;
   height: 100%;
   margin: 0;
@@ -57,6 +57,34 @@ h3 {
 }
 
 
+.centered {
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
+  top: 50%;
+  transform: translateY(-50%);
+  color:#ffffff;
+  max-width: 100%;
+  margin-right:-.3em;
+
+}
+
+.centered p{
+  font-family: 'Monda', sans-serif;
+  letter-spacing: 0.3em;
+}
+
+.bordered{
+    display: inline;
+    border-color:#ffffff;
+    border-style: solid;
+    border-width: 3px;
+    font-size: 3rem;
+    max-width: 100%;
+    padding: 0px;
+
+}
+
 a{
   text-decoration: none;
   color: black;
@@ -101,6 +129,29 @@ nav a:hover{
     font-size: 1.5rem;
   }
 
+  .work_experience ul{
+    list-style: none;
+    padding-left: 0;
+  }
+
+  .work_experience h3{
+    margin: auto;
+  }
+
+  .education ul{
+    list-style: none;
+    padding-left: 0;
+  }
+
+  .education h3{
+    margin: auto;
+  }
+
+  .container2{
+    max-width: 90%;
+    margin: auto;
+  }
+
   .title{
     font-size: 3rem;
   }
@@ -108,10 +159,10 @@ nav a:hover{
   .introduction{
     font-size: 60%;
   }
-  .bg1
-  {
-       padding:0;
-       text-align: center;
+
+  .bg1 {
+    padding:0;
+    text-align: center;
   }
 }
 
@@ -141,5 +192,3 @@ nav a:hover{
 
 
 }
-
-
