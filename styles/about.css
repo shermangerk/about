@@ -32,9 +32,13 @@ h3 {
 
 /*CSS TEXT CONTAINERS */
 
-.container1{
+.container2{
   text-align: center;
   margin:auto;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  min-height: 100%;
 }
 
 
@@ -79,12 +83,9 @@ h3 {
 }
 
 .introduction{
-    padding: 50px;
     background-color: #ffffff ;
     width: 60%;
-    margin: auto;
     height: auto;
-    vertical-align: middle;
     line-height: 1.6;
 }
 
@@ -99,8 +100,7 @@ h3 {
 
 img{
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
   width: 250px;
   align: middle;
 }
