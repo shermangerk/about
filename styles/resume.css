@@ -99,28 +99,25 @@ h3,h2 {
 .container2 p{
   display: inline-block;
   position: relative;
-  transform: translateX(100px);
   transition: 1s;
   opacity: 0;
 }
 
 .container2 p[data-scroll="in"]{
-  transform: translate(0);
-  transition-delay: : 1s;
+  transition-delay: : 1.5s;
   opacity: 1;
 }
 
 
+
+
 .container2 ul{
-  position: relative;
-  transform: translateX(100px);
-  transition: 1s;
+  transition: 0.5s;
   opacity: 0;
 }
 
 .container2 ul[data-scroll="in"]{
-  transform: translate(0);
-  transition-delay: : 1s;
+  transition-delay:1s;
   opacity: 1;
 }
 /*CSS TEXT CONTAINERS */
@@ -134,7 +131,8 @@ h3,h2 {
 
 /* profile pic image */
 
-.bg1 {
+.bg1{
+  background-image: url(../img/sea.jpg);
   opacity: 0.9;
   background-position:center;
   background-size:cover;
@@ -144,7 +142,6 @@ h3,h2 {
   margin-bottom:0px;
   height:100%;
   width:100%;
-  background-image: url(../img/sea.jpg);
 }
 
 
