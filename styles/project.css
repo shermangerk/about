@@ -2,24 +2,6 @@ body, html {
   height: 100%;
 }
 
-.bg {
-  /* The image used */
-  background-image: url(../img/download.jpg);
 
-  /* Full height */
-  height: 100%;
-
-  /* Center and scale the image nicely */
-  background-repeat: no-repeat;
-  background-size: cover;
-
-
-  position: relative;
-  opacity: 0.9;
-  background-attachment:fixed;
-  /* Full height */
-  height: 100%;
-  display: flex;
-  align-items: center;
 
 }
