@@ -89,7 +89,7 @@ h3 {
   background-size:cover;
   background-attachment:fixed;
   /* Full height */
-  height: 100vh;
+  height: 100%;
   display: flex;
   align-items: center;
 }
