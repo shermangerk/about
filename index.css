@@ -13,7 +13,7 @@
 }
 body, html{
   font-family: 'Raleway', sans-serif;
-  height: var(--app-height);
+  height: 100%;
   margin: 0;
 }
 
@@ -82,7 +82,7 @@ h3 {
 }
 
 .bg1 {
-  position: relative;
+  position: absolute;
   background-image: url(../img/Me.jpg);
   opacity: 0.9;
   background-position:center;
