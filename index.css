@@ -1,19 +1,25 @@
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+
 
 /* ============================================= */
-/* Style the navbar */
-/* Page content */
+/* progress bar */
 *{
   box-sizing: border-box;
 }
 body, html{
-  font-family: 'Amiri', serif;
+  font-family: 'Raleway', sans-serif;
   height: 100vh;
   margin: 0;
 }
 
 h1,p,h2,h3 {
   text-align: center;
-  font-family: 'Amiri', serif;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 h3 {
@@ -26,15 +32,6 @@ h3 {
 
 
 /*CSS TEXT CONTAINERS */
-
-.container2{
-  text-align: center;
-  margin:auto;
-  display: flex;
-  align-items: center;
-  justify-content:center;
-  min-height: 100%;
-}
 
 
 /* Quote #1 for about me */
@@ -50,6 +47,7 @@ h3 {
   font-family: 'Share Tech Mono', monospace;
 }
 
+/* Text Centered in Background */
 .centered {
   position: relative;
   text-align: center;
@@ -75,34 +73,22 @@ h3 {
     font-size: 3rem;
     max-width: 100%;
     padding: 0px;
-}
 
-.introduction{
-    background-color: #ffffff ;
-    width: 60%;
-    height: auto;
-    line-height: 1.6;
-}
-
-
-
-.introduction h2{
-  line-height: 1.6;
-  font-size: 1rem;
 }
 
 /* profile pic image */
 
 img{
-  display: block;
-  margin: auto;
-  width: 250px;
-  align: middle;
+  max-width: 100%;
+  height: auto;
 }
 
+#profile{
+  float: left;
+  padding:3rem;
+}
 
-.bg1{
-  background-image: url(../img/mountain.jpg);
+.bg1, {
   opacity: 0.9;
   background-position:center;
   background-size:cover;
@@ -114,22 +100,21 @@ img{
   width:100%;
 }
 
-.lead{
-  font-size: 2rem;
-  font-family: 'Share Tech Mono', monospace;
+.bg1{
+    background-image: url(../img/Me.jpg);
 }
 
-
+.bg2{
+    background-image: url(../img/mountain.jpg);
+}
 a{
   text-decoration: none;
   color: black;
 }
-
 nav ul{
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   list-style: none;
-  text-align: center;
 }
 
 nav li{
@@ -139,7 +124,7 @@ nav li{
 
 nav a{
   font-size: 1.5rem;
-  color:#000000;
+  color:#ffffff;
   text-decoration: none;
 }
 
@@ -149,13 +134,19 @@ nav a:hover{
 
 @media screen and (max-width: 900px) {
 
+nav li{
+  display: inline-flex;
+}
 
 }
 
 @media screen and (max-width: 768px){
   .bordered{
     font-size:3rem;
-    border-width: 0px;
+  }
+  .bg1{
+    background-image: url(../img/Me1.jpg);
+    height: 100%;
   }
   .lead{
     font-size: 1.5rem;
@@ -164,17 +155,6 @@ nav a:hover{
   .title{
     font-size: 3rem;
   }
-
-  .introduction{
-    font-size: 60%;
-  }
-
-  .bg1
-  {
-       padding:0;
-       text-align: center;
-  }
-
 }
 
 @media screen and (max-width: 400px){
@@ -197,10 +177,6 @@ nav a:hover{
   .title{
     font-size: 2rem;
   }
-  .introduction{
-    width: 100%
-  }
-
 
 }
 
