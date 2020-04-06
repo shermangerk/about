@@ -49,13 +49,8 @@ h3 {
 
 /* Text Centered in Background */
 .centered {
-  position: relative;
-  text-align: center;
-  vertical-align: middle;
-  top: 50%;
-  transform: translateY(-50%);
   color:#ffffff;
-  max-width: 100%;
+  width: 100%;
   margin-right:-.3em;
 
 }
@@ -73,48 +68,43 @@ h3 {
     font-size: 3rem;
     max-width: 100%;
     padding: 0px;
-
 }
 
 /* profile pic image */
 
-img{
-  max-width: 100%;
-  height: auto;
+
+
+.container2 {
+  height: 100vh;
+  width: 100%;
+  margin:auto;
+
 }
 
-#profile{
-  float: left;
-  padding:3rem;
-}
-
-.bg1, {
+.bg1 {
+  background-image: url(../img/Me.jpg);
   opacity: 0.9;
   background-position:center;
   background-size:cover;
-  background-repeat:no-repeat;
   background-attachment:fixed;
   /* Full height */
   margin-bottom:0px;
-  height:100%;
-  width:100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
 }
 
-.bg1{
-    background-image: url(../img/Me.jpg);
-}
 
-.bg2{
-    background-image: url(../img/mountain.jpg);
-}
 a{
   text-decoration: none;
   color: black;
 }
+
 nav ul{
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   list-style: none;
+  text-align: center;
 }
 
 nav li{
@@ -134,19 +124,16 @@ nav a:hover{
 
 @media screen and (max-width: 900px) {
 
-nav li{
-  display: inline-flex;
-}
 
 }
 
 @media screen and (max-width: 768px){
-  .bordered{
-    font-size:3rem;
-  }
   .bg1{
     background-image: url(../img/Me1.jpg);
-    height: 100%;
+  }
+
+  .bordered{
+    font-size:3rem;
   }
   .lead{
     font-size: 1.5rem;
