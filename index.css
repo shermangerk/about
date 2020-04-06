@@ -13,7 +13,7 @@
 }
 body, html{
   font-family: 'Raleway', sans-serif;
-  height: 100vh;
+  height: 100%;
   margin: 0;
 }
 
@@ -75,7 +75,7 @@ h3 {
 
 
 .container2 {
-  height: 100vh;
+  height: 100%;
   width: 100%;
   margin:auto;
 
@@ -89,7 +89,7 @@ h3 {
   background-size:cover;
   background-attachment:fixed;
   /* Full height */
-  height: 100%;
+  height: var(--app-height);
   display: flex;
   align-items: center;
 }
