@@ -5,6 +5,7 @@
 
       var console = document.getElementById('console');
       console.innerHTML += "*Resize! window.innerHeight: " + window.innerHeight + ",  documentElement.clientHeight: " + document.documentElement.clientHeight + "<br>";
+      console.style.color = "red";
 
 
     }
