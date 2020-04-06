@@ -82,13 +82,13 @@ h3 {
 }
 
 .bg1 {
+  position: relative;
   background-image: url(../img/Me.jpg);
   opacity: 0.9;
   background-position:center;
   background-size:cover;
   background-attachment:fixed;
   /* Full height */
-  margin-bottom:0px;
   height: 100vh;
   display: flex;
   align-items: center;
