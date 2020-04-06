@@ -1,0 +1,196 @@
+*{
+  box-sizing: border-box;
+}
+body, html{
+  font-family: 'Amiri', serif;
+  height: 100%;
+  margin: 0;
+}
+
+h1,p,h2,h3 {
+  text-align: center;
+  font-family: 'Amiri', serif;
+}
+
+h3 {
+  font-weight: bold;
+  display: inline;
+  font-family: 'Roboto Condensed', sans-serif;
+  margin: 0rem 4rem;
+}
+
+
+
+/*CSS TEXT CONTAINERS */
+
+.container2{
+  text-align: center;
+  margin:auto;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  min-height: 100%;
+}
+
+
+/* Quote #1 for about me */
+
+/*Main Header Text Font*/
+.title{
+  font-family: 'Nothing You Could Do', cursive;
+  font-size: 3rem;
+}
+
+.lead{
+  font-size: 2rem;
+  font-family: 'Share Tech Mono', monospace;
+}
+
+.centered {
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
+  top: 50%;
+  transform: translateY(-50%);
+  color:#ffffff;
+  max-width: 100%;
+  margin-right:-.3em;
+
+}
+
+.centered p{
+  font-family: 'Monda', sans-serif;
+  letter-spacing: 0.3em;
+}
+
+.bordered{
+    display: inline;
+    border-color:#ffffff;
+    border-style: solid;
+    border-width: 3px;
+    font-size: 3rem;
+    max-width: 100%;
+    padding: 0px;
+}
+
+.introduction{
+    background-color: #ffffff ;
+    width: 60%;
+    height: auto;
+    line-height: 1.6;
+}
+
+
+
+.introduction h2{
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+/* profile pic image */
+
+img{
+  display: block;
+  margin: auto;
+  width: 250px;
+  align: middle;
+}
+
+
+.bg1{
+  background-image: url(../img/building.jpg);
+  opacity: 0.9;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  /* Full height */
+  margin-bottom:0px;
+  height:100vh;
+  width:100%;
+}
+
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+nav ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+nav li{
+  display: inline-block;
+  margin: 1rem;
+}
+
+nav a{
+  font-size: 1.5rem;
+  color:#000000;
+  text-decoration: none;
+}
+
+nav a:hover{
+  color:#9e9e9e;
+}
+
+@media screen and (max-width: 900px) {
+
+
+}
+
+@media screen and (max-width: 768px){
+  .bordered{
+    font-size:3rem;
+    border-width: 0px;
+  }
+  .lead{
+    font-size: 1.5rem;
+  }
+
+  .title{
+    font-size: 3rem;
+  }
+
+  .introduction{
+    font-size: 60%;
+  }
+
+  .bg1
+  {
+       padding:0;
+       text-align: center;
+  }
+
+}
+
+@media screen and (max-width: 400px){
+  .bordered{
+    font-size: 2rem;
+  }
+  nav a{
+    margin: auto;
+    font-size: 1rem;
+  }
+
+  nav a:hover{
+    color:#9e9e9e;
+  }
+
+  .lead{
+    font-size: 1rem;
+  }
+
+  .title{
+    font-size: 2rem;
+  }
+  .introduction{
+    width: 100%
+  }
+
+
+}
