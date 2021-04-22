@@ -175,7 +175,13 @@ nav a:hover{
     margin: 2rem;
   }
 
-
+/* resume skills unordered list  */
+  
+#skills {
+  display: flex;
+  flex: auto;
+  }
+  
 /* nav li{
   display: inline-flex;
 } */
